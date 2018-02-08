@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid-center {
+    align-self: center;
+    justify-self: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: "logo logo navbar navbar"
+    "null title title title"
+    "social-icons social-icons social-icons social-icons"
+}
+
+.logo {
+    grid-area: "logo";
+}
