@@ -80,6 +80,6 @@
     display: flex;
 }
 
-.icon-box svg {
-    padding: 0 20px;
+.icon-box a {
+    margin: 0 18px;
 }
