@@ -38,6 +38,47 @@
     color: white;
 }
 
-.tippy-tooltip.tech-theme .tippy-content{
+.tippy-tooltip.tech-theme .tippy-content {
     font-family: 'Open Sans', sans-serif;
-  }
+}
+
+@media (max-width: 470px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "navbar"
+            "logo"
+            "title"
+            "social-icons";
+    }
+
+    .navbar {
+        justify-self: center;
+        margin: 0;
+    }
+
+    .logo {
+        justify-self: center;
+    }
+
+    .logo svg {
+        height: 200px;
+        width: 200px;
+    }
+
+    .title {   
+        position: relative;
+        bottom: 50px;
+    }
+
+    .title .name {
+        visibility: hidden;
+    }
+
+    .social-icons {
+        justify-self: center;
+        margin: 0;
+    }
+}

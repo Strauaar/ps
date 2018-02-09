@@ -8,6 +8,45 @@
     "social-icons social-icons social-icons social-icons";
 }
 
+@media (max-width: 470px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "navbar"
+            "logo"
+            "title"
+            "social-icons";
+    }
+
+    .navbar {
+        
+    }
+
+    .logo {
+        justify-self: center;
+    }
+
+    .logo svg {
+        height: 200px;
+        width: 200px;
+    }
+
+    .title {   
+        position: relative;
+        bottom: 50px;
+    }
+
+    .title .name {
+        visibility: hidden;
+    }
+
+    .title .name-sub {
+        
+    }
+}
+
 .logo {
     margin: 10px 50px;
 }
