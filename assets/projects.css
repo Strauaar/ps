@@ -1,0 +1,22 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-areas: "empty 1 2 3 empty";
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.tixfix {
+    grid-area: 1;
+}
+
+.link {
+    grid-area: 2;
+}
+
+.coffeewifi {
+    grid-area: 3;
+}
