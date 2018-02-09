@@ -1,0 +1,47 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "title title title title title "
+        "one two three four five";
+}
+
+.projects-title {
+    grid-area: title;
+    justify-self: center;
+    margin: 40px 0;
+}
+
+
+.project-item {
+    justify-self: center;    
+}
+
+.tixfix {
+    grid-area: two;
+}
+
+.link {
+    grid-area: three;
+}
+
+.coffeewifi {
+    grid-area: four;
+}
+
+.project-title {
+    font-size: 2em;
+}
+
+.tech-list {
+    display: flex;
+    list-style: none;
+}
+
+.tech-icons {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+

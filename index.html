@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/main.css" />
+    <script src="https://unpkg.com/tippy.js@2.1.1/dist/tippy.all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Document</title>
 </head>
 <body>
@@ -66,12 +66,46 @@
             </div>
         </div>
     </div>
-    <div class="projects">
-        <div class="tixfix project-item">
+    <div class="about">
+        <p class="about-title r-font section-title white-text">About</p>
+        <p class="about-summary white-text">
+            Welcome to my site! My name is Aaron and I am a creator who loves to make things from scratch. 
+            I'd say I've tried plenty of mediums to get my thoughts out there, but through technology (mostly apps) is by far my most favorite.
+            I'm always eager to learn new things in the tech world because I want to be an amazing developer one day. When I'm not honing my craft, you can find me at the gym
+            or going out of my way for some good coffee or boba. 
+        </p>
 
-        </div>
-        <div class="link project-item"></div>
-        <div class="coffeewifi project-item"></div>
     </div>
+    <div class="projects">
+        <p class="projects-title r-font section-title">Projects</p>        
+        <div class="tixfix project-item">
+            <p class="project-title r-font">TixFix</p>
+            <ul class="tech-list">
+                <li title="JavaScript" class="tech-icons"><img  src="./assets/icons/javascript.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/react.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/ruby.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/rails.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/postgresql.svg"/></li>
+            </ul>
+        </div>
+        <div class="link project-item">
+            <p class="project-title r-font">Link</p>
+            <ul class="tech-list">
+                <li class="tech-icons"><img  src="./assets/icons/javascript.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/react.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/express.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/postgresql.svg"/></li>
+                <li class="tech-icons"><img  src="./assets/icons/nodejs.svg"/></li>
+            </ul>    
+        </div>
+        <div class="coffeewifi project-item">
+            <p class="project-title r-font">_coffeeWifi</p>            
+        </div>
+    </div>
+
+    <script>
+        tippy('[title]', { arrow: true,
+                           theme: 'tech' })
+    </script>
 </body>
 </html>
