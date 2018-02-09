@@ -1,10 +1,11 @@
 .projects {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas: 
         "title title title title title "
-        "one two three four five";
+        "one two three four five"
+        "skills skills skills skills skills";
 }
 
 .projects-title {
@@ -15,8 +16,12 @@
 
 
 .project-item {
-    justify-self: center;    
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
+
 
 .tixfix {
     grid-area: two;
@@ -30,18 +35,49 @@
     grid-area: four;
 }
 
+.skills {
+    grid-area: skills;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;   
+    margin-left: 10px; 
+}
+
 .project-title {
     font-size: 2em;
+    align-self: center;
+    text-decoration: black underline;
+    color: black;
+}
+
+.project-summary {
+    padding: 30px 0;
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    max-width: 60%;
 }
 
 .tech-list {
     display: flex;
     list-style: none;
+    align-self: center;
 }
 
 .tech-icons {
     height: 30px;
     width: 30px;
     margin: 10px;
+}
+
+.project-github {
+    align-self: center;
+    margin: 30px 0;
 }
 
