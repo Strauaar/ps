@@ -5,7 +5,7 @@
     grid-template-areas: 
     "logo logo navbar navbar"
     "title title title title"
-    "social-icons social-icons social-icons social-icons"
+    "social-icons social-icons social-icons social-icons";
 }
 
 .logo {

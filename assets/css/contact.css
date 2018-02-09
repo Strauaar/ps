@@ -1,0 +1,56 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    /* grid-template-areas: "contact contact contact"; */
+}
+
+.form {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif
+}
+
+.contact-title {
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 0px;
+    border: 2px solid black;
+    padding: 8px 15px;
+    background-color: white;
+    width: 300px;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    font-size: 16px;    
+    border-radius: 0px;
+    border: 2px solid black;
+    padding: 8px 15px;
+    width: 300px;
+    background-color: white;
+}
+
+button {
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;    
+    border: 3px solid rgb(42, 190, 104);
+    padding: 8px 0px;
+    background-color: white;
+    font-size: 16px;
+    width: 334px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
