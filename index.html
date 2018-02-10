@@ -46,9 +46,9 @@
         </div>
         <div class="navbar vertical-center">
             <ul class="navbar-list">
-                <li class="navbar-list-item r-font"><a>Projects</a></li>
-                <li class="navbar-list-item r-font"><a>About</a></li>
-                <li class="navbar-list-item r-font"><a>Contact</a></li>
+                <li class="navbar-list-item r-font"><a href="#about">About</a></li>
+                <li class="navbar-list-item r-font"><a href="#projects">Projects</a></li>
+                <li class="navbar-list-item r-font"><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div class="title grid-center"> 
@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="about">
-        <p class="about-title r-font section-title white-text">About</p>
+        <p id="about" class="about-title r-font section-title white-text">About</p>
         <p class="about-summary white-text">
             Welcome to my site! My name is Aaron and I am a creator who loves to make things from scratch. 
             I'd say I've tried plenty of mediums to get my thoughts out there, but technology is by far my favorite.
@@ -76,7 +76,7 @@
         </p>
 
     </div>
-    <div class="projects">
+    <div id="projects" class="projects">
         <p class="projects-title r-font section-title">Latest Projects</p>        
         <div class="tixfix project-item">
             <a href="https://tixfix.herokuapp.com/#/" class="project-title r-font">TixFix</a>
@@ -138,7 +138,7 @@
             </ul>
         </div>
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
         <p class="contact-title r-font section-title">Contact</p>        
         <form class="form" method="POST" action="https://formspree.io/astrauli@gmail.com">
             <input class="email-input" name="email" placeholder="Your email" type="email">
