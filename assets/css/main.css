@@ -139,6 +139,13 @@
         justify-content: center;    
     }
 
+    .tech-list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 95vw;
+        justify-content: center;
+    }
+
     .tech-icons {
         height: 60px;
         width: 60px;
