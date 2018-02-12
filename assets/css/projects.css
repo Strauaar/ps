@@ -7,7 +7,7 @@
         "one two three four five"
         "skills skills skills skills skills";
     border-bottom: 1px solid black;
-    padding-bottom: 20px;
+    padding: 100px 0;
 }
 
 .projects-title {

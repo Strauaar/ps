@@ -6,6 +6,7 @@
         "title title title"
         "about about about";
     background-color: black;
+    padding: 50px;
 }
 
 .about-title {
@@ -16,9 +17,8 @@
 
 .about-summary {
     grid-area: about;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 0;    
+    font-family: 'Open Sans', sans-serif;   
     justify-self: center;
-    padding: 0 14.28%;
+    padding: 0 10%;
     text-align: center;
 }
